@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import User from '../models/User';
-import Token from '../models/Token';
+import User from '../models/user.model';
+import Token from '../models/token.model';
 import { sendSMS } from '../utils/smsSender';
 import { generateToken } from '../utils/tokenGenerator';
 
